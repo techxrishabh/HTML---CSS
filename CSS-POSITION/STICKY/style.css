@@ -7,6 +7,7 @@
   position: sticky;
   top: 0;
   background-color: red;
+  border: 3px solid black;
 }
 .container {
   background-color: yellow;
@@ -27,4 +28,9 @@ span {
   color: palevioletred;
   background-color: aqua;
   border: 2px solid black;
+}
+.pink {
+  background-color: blueviolet;
+  color: aliceblue;
+  margin: 4rem 0;
 }
