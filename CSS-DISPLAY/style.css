@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.title-underline {
+  border: 2px solid cornflowerblue;
+  width: 5rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  border: 2px solid red;
+}
