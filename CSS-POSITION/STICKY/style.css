@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: red;
+}
+.container {
+  background-color: yellow;
+  border: 2px solid black;
+  height: fit-content;
+}
+.blue {
+  background-color: blue;
+  color: aliceblue;
+  margin: 4rem 0;
+}
+.green {
+  background-color: green;
+  color: aliceblue;
+  margin: 4rem 0;
+}
+span {
+  color: palevioletred;
+  background-color: aqua;
+  border: 2px solid black;
+}

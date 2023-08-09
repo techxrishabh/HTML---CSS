@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #note {
+      color: red;
+    }
+    #position {
+      color: skyblue;
+    }
+    body {
+      background-color: #cd8ccd;
+    }
+  </style>
+  <body>
+    <div class="conatiner">
+      <h1 id="position">POSITIONS</h1>
+      <h2>THERE ARE FOUR TYPES OF POSITION ================</h2>
+      <h3>1. RELATIVE</h3>
+      <h3>2. ABSOLUTE</h3>
+      <h3>3. FIXED</h3>
+      <h3>4. STICKY</h3>
+    </div>
+    <div class="relative">
+      <h4>1.RELATIVE = It works according to its own position ...</h4>
+    </div>
+    <div class="absolute">
+      <h4>
+        2.ABSOLUTE = It works according to the position of its parent elements
+        by giving the value of position relative to its parent element ...... If
+        we will not assign the value of position relative to its parent element
+        then it will look for the vale of position relative to its parent
+        element means its parent element of its parent element.....it follows
+        the same process unit it does not find the value......
+        <h4 id="note">
+          NOTE = IF IT CAN'T BE ABLE TO FIND IT THEN IT WILL CONSIDER THE BODY
+          ELEMENT ITS PARENT BY DEFAULT AND THEN IF WILL START TO WORK ACCORDING
+          TO THE POSITION OF HTML BODY ELEMENT
+        </h4>
+      </h4>
+    </div>
+  </body>
+</html>
