@@ -1,0 +1,48 @@
+/* 
+Breakpoint 	               Class-infix 	                    Dimensions
+X-Small 	 	           None                             <576px
+Small 		               sm                               ≥576px
+Medium 	 	               md                               ≥768px
+Large 	 	               lg                               ≥992px
+Extra large 	 	       xl                               ≥1200px
+Extra extra large 	 	   xxl                              ≥1400px
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: yellow;
+  height: 100vh;
+}
+.section {
+  background-color: red;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .container {
+    background-color: green;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: blue;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    background-color: black;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    background-color: whitesmoke;
+  }
+}
