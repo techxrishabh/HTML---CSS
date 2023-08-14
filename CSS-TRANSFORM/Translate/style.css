@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.div1 {
+  background-color: red;
+  border: 5px solid rgb(78, 5, 5);
+  transform: translatex(
+    50%
+  ); /*move 50% toward x axis from its actual position*/
+}
+.div2 {
+  background-color: greenyellow;
+  border: 5px solid green;
+  transform: translatey(
+    -50%
+  ); /*move towards y axis from its actual position but its we put its value in negative here so it will move in the opposite dirn means upside instead of downside*/
+}
+.div3 {
+  background-color: blueviolet;
+  border: 5px solid blue;
+  transform: translate(100px, 150px);
+  /*100px from x-axis towards x and 150px from the y axis toward y */
+}
+.div4 {
+  background-color: yellow;
+  border: 5px solid yellowgreen;
+  transform: translate(-100px, -100px);
+  /* it means 100px to left and 100px to upside*/
+}
+
+div {
+  margin: 25px 100px;
+}
