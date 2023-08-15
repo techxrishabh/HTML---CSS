@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.div1 {
+  background-color: red;
+  border: 5px solid rgb(78, 5, 5);
+  transform: scalex(1.5);
+}
+.div2 {
+  background-color: greenyellow;
+  border: 5px solid green;
+  transform: scaley(1.5);
+}
+.div3 {
+  background-color: blueviolet;
+  border: 5px solid blue;
+  transform: scale(0.5, 1.5);
+}
+.div4 {
+  background-color: yellow;
+  border: 5px solid yellowgreen;
+}
+
+div {
+  margin: 25px 100px;
+}
