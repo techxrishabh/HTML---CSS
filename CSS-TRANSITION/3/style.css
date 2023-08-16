@@ -1,0 +1,91 @@
+/*
+====================================================================================================================
+                                        Transition : Change Over Time
+                                        transition delay
+                                        shorthand                                    
+====================================================================================================================
+
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.div1 {
+  background-color: red;
+  border: 5px solid rgb(78, 5, 5);
+}
+.div2 {
+  background-color: greenyellow;
+  border: 5px solid green;
+}
+.div3 {
+  background-color: blueviolet;
+  border: 5px solid blue;
+}
+.div4 {
+  background-color: yellow;
+  border: 5px solid yellowgreen;
+}
+
+div,
+body {
+  margin: 25px 100px;
+}
+.div3:hover {
+  background: aqua;
+}
+.div3 {
+  transition-property: background; /* WE WILL HAVE TO MENTION THE PROPERTY IN WHICH WE ARE GOING TO USE THAT EFFECT */
+  transition-duration: 4s;
+}
+.div1 {
+  transition-property: background border-radius;
+  transition-duration: 4s; /*TWO-PROPERTY AT THE SAME TIME*/
+}
+.div1:hover {
+  background: rgb(224, 145, 17);
+  border-radius: 50%;
+}
+
+/*
+changing its color and shape with respect to time ====================
+*/
+
+/*===================================================================================================================
+================== ===========  TRANSITION DELAY STARTS FROM HERE =================== ============= ================
+====================================================================================================================*/
+
+.div2 {
+  transition: background 2s 1s, transform 4s 2s, border-radius 6s 3s;
+}
+.div2:hover {
+  background: rgb(226, 116, 19);
+  transform: rotate(45deg);
+  border-radius: 50%;
+}
+
+/*
+
+WE CAN ALSO WRITE THIS AS ====================================
+
+*/
+
+.div4 {
+  transition: all 2s 1s;
+}
+.div4:hover {
+  transform: scale(1.2);
+  background-color: blanchedalmond;
+  border-radius: 25%;
+}
