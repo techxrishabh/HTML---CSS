@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.div1 {
+  background-color: red;
+  border: 5px solid rgb(78, 5, 5);
+  transform: rotate(deg);
+  transition: all 2s ease-in-out;
+}
+.div2 {
+  background-color: greenyellow;
+  border: 5px solid green;
+  transition: all 2s ease-in-out;
+}
+.div3 {
+  background-color: blueviolet;
+  border: 5px solid blue;
+  transition: all 2s ease-in-out;
+}
+.div4 {
+  background-color: yellow;
+  border: 5px solid yellowgreen;
+  transition: all 2s ease-in-out;
+}
+
+div {
+  margin: 25px 100px;
+}
+
+.div1:hover {
+  transform: rotate(45deg);
+}
+.div2:hover {
+  transform: rotateZ(360deg);
+}
+.div3:hover {
+  transform: rotateX(90deg);
+}
+.div4:hover {
+  transform: rotateY(45deg);
+}
