@@ -1,0 +1,63 @@
+/*
+====================================================================================================================
+                                        Transition : Change Over Time
+                                        Transition-Property:
+                                        Transition-Duration:
+====================================================================================================================
+
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.div1 {
+  background-color: red;
+  border: 5px solid rgb(78, 5, 5);
+}
+.div2 {
+  background-color: greenyellow;
+  border: 5px solid green;
+}
+.div3 {
+  background-color: blueviolet;
+  border: 5px solid blue;
+}
+.div4 {
+  background-color: yellow;
+  border: 5px solid yellowgreen;
+}
+
+div,
+body {
+  margin: 25px 100px;
+}
+.div3:hover {
+  background: aqua;
+}
+.div3 {
+  transition-property: background; /* WE WILL HAVE TO MENTION THE PROPERTY IN WHICH WE ARE GOING TO USE THAT EFFECT */
+  transition-duration: 4s;
+}
+.div1 {
+  transition-property: background border-radius;
+  transition-duration: 4s 1s; /*TWO-PROPERTY AT THE SAME TIME*/
+}
+.div1:hover {
+  background: rgb(224, 145, 17);
+  border-radius: 50%;
+}
+
+/*
+changing its color and shape with respect to time ====================
+*/
