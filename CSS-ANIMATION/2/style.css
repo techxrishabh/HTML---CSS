@@ -1,0 +1,49 @@
+/*
+ANIMATION-FILL-MODE : WHAT VALUES ARE APPLIED BY  THE ANIMATION OUTSIDE THE TIME IT IS EXECUTING 
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+  opacity: 0; /*concentrate here*/
+}
+.animation {
+  background: blue;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+/* WE CAN ALSO WRITE THIS LIKE THIS =======================  */
+.animation {
+  background: blue;
+  animation: move 5s 2;
+  animation-fill-mode: forwards; /*(value at the end of our animation)*/
+}
+
+@keyframes move {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100);
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+}
