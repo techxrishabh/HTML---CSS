@@ -1,0 +1,7 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f3f3f3;
+}
+.container {
+  border: 5px solid red;
+}
