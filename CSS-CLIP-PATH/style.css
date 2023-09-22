@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(136, 27, 45, 0.8),
+      rgb(20, 91, 214, 0.8)
+    ),
+    url("image/wallpaperflare.com_wallpaper\ \(1\).jpg");
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* clip-path: polygon(x y, x y, x y); */
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+body {
+  padding: 15px;
+  color: #777;
+}
