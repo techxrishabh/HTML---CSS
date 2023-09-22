@@ -16,8 +16,26 @@
   background-position: center;
   /* clip-path: polygon(x y, x y, x y); */
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+  position: relative;
 }
 body {
   padding: 15px;
   color: #777;
+}
+.logo-box {
+  font-size: 50px;
+  color: white;
+  display: inline;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.music {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
 }
