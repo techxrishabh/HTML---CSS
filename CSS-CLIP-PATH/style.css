@@ -24,11 +24,12 @@ body {
 }
 .logo-box {
   font-size: 50px;
-  color: white;
+  color: #d7d7cb;
   display: inline;
   position: absolute;
   top: 40px;
   left: 40px;
+  text-shadow: -1px 0 #000, 0 10px #000, 1px 0 #000, 0 -1px #000;
 }
 .music {
   border-radius: 50%;
