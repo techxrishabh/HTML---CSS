@@ -1,0 +1,74 @@
+/*
+NOW WE ARE GOING TO SEE ALL THE PROPERTIES OF JUSTIFY CONTENT
+
+justify-content horizontal alignment 
+
+properties ---------------------------------------------------- >>>>>>
+
+flex-start === by default (if we use it nothing will happen)
+
+evenly distributed 
+
+space-between
+
+space-around
+
+space-evenly 
+
+*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f3f3f3;
+}
+.container {
+  border: 5px solid red;
+}
+.box {
+  text-align: center;
+  padding: 30px;
+  font-size: 35px;
+}
+.box-1 {
+  background-color: aqua;
+}
+.box-2 {
+  background-color: blueviolet;
+}
+.box-3 {
+  background-color: papayawhip;
+}
+.box-4 {
+  background-color: orange;
+}
+.box-5 {
+  background-color: greenyellow;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.container1 {
+  display: flex;
+  justify-content: flex-end;
+  border: 5px solid red;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid red;
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid red;
+}
+.container4 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 5px solid red;
+}
+.container5 {
+  display: flex;
+  justify-content: center;
+  border: 5px solid red;
+}
