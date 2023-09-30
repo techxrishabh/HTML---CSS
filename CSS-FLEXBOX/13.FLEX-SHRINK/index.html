@@ -1,0 +1,39 @@
+<!-- ____________________________________  CSS-FLEXBOX  _________________________________________ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      .container { display: flex; }<br />
+      .box-2 { width: 600px; },<br />(by default it has flex-shrink:1;)<br />
+      (because of that when we reduce our screen size it start shrinking)
+    </h1>
+    <div class="container">
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+    <h1>
+      .container1 { display: flex; }<br />
+      .tox-2 { width: 600px; flex-shrink: 0; }<br />
+      (now lets see what happen if we set flex-shrink to flex-shrink: 0, now you
+      will see that it will not start shrinking after we try to reduce our
+      screen size)
+    </h1>
+    <div class="container1">
+      <div class="tox tox-1">1</div>
+      <div class="tox tox-2">2</div>
+      <div class="tox tox-3">3</div>
+      <div class="tox tox-4">4</div>
+      <div class="tox tox-5">5</div>
+    </div>
+  </body>
+</html>
