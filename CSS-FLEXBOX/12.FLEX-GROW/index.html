@@ -1,0 +1,73 @@
+<!-- ____________________________________  CSS-FLEXBOX  _________________________________________ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      .container { display: flex; }<br />.box { flex-grow: 0; } (By default)
+    </h1>
+    <div class="container">
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+    <h1>
+      .tox flex-grow: 1; <br />(here it means all the boxes are divided into
+      1:1:1:1:1)
+    </h1>
+    <div class="container1">
+      <div class="tox tox-1">1</div>
+      <div class="tox tox-2">2</div>
+      <div class="tox tox-3">3</div>
+      <div class="tox tox-4">4</div>
+      <div class="tox tox-5">5</div>
+    </div>
+    <h1>
+      .container2 { display: flex; } <br />.dox-1 { flex-grow: 2; }<br />(here
+      it means it is divided in the ratio of 1:0)
+    </h1>
+    <div class="container2">
+      <div class="dox dox-1">1</div>
+      <div class="dox dox-2">2</div>
+    </div>
+    <h1>
+      .container3{ display: flex; }<br />
+      .fox-1{ flex-grow: 2; }<br />
+      .fox-2{ flex-grow: 1; }<br />(here it means it is divided in the ratio of
+      2:1)
+    </h1>
+    <div class="container3">
+      <div class="fox fox-1">1</div>
+      <div class="fox fox-2">2</div>
+    </div>
+    <h1>
+      .container4 { display: flex; }<br />
+      .pox-1 { flex-grow: 2; }<br />
+      .pox-2 { flex-grow: 1; }<br />(here it means it is divided in the ratio of
+      2:1:0:0)
+    </h1>
+    <div class="container4">
+      <div class="pox pox-1">1</div>
+      <div class="pox pox-2">2</div>
+      <div class="pox pox-3">3</div>
+      <div class="pox pox-4">4</div>
+      <div class="pox pox-5">5</div>
+    </div>
+    <h1>nothing changes(Normal without flex-grow property)</h1>
+    <div class="container5">
+      <div class="rox rox-1">1</div>
+      <div class="rox rox-2">2</div>
+      <div class="rox rox-3">3</div>
+      <div class="rox rox-4">4</div>
+      <div class="rox rox-5">5</div>
+    </div>
+  </body>
+</html>

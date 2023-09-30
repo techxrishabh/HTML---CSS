@@ -1,0 +1,112 @@
+/*
+flex-grow = all children have flex-grow: 0; 
+
+it works according to the ratio like if some child element have flex-grow to 1 and another child has flex-grow to 2 then will will work in gin the ratio 1 : 2
+*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f3f3f3;
+}
+.container,
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  border: 5px solid red;
+}
+.box,
+.tox,
+.fox,
+.pox,
+.rox,
+.dox {
+  text-align: center;
+  padding: 30px;
+  font-size: 35px;
+}
+.box-1,
+.tox-1,
+.pox-1,
+.rox-1,
+.fox-1,
+.dox-1 {
+  background-color: aqua;
+}
+.box-2,
+.tox-2,
+.pox-2,
+.rox-2,
+.fox-2,
+.dox-2 {
+  background-color: blueviolet;
+}
+.box-3,
+.tox-3,
+.pox-3,
+.rox-3,
+.fox-3,
+.dox-3 {
+  background-color: papayawhip;
+}
+.box-4,
+.tox-4,
+.pox-4,
+.rox-4,
+.fox-4,
+.dox-4 {
+  background-color: orange;
+}
+.box-5,
+.tox-5,
+.pox-5,
+.rox-5,
+.fox-5,
+.dox-5 {
+  background-color: greenyellow;
+}
+.container {
+  display: flex;
+}
+.box {
+  flex-grow: 0;
+}
+.container1 {
+  display: flex;
+}
+.tox {
+  flex-grow: 1;
+}
+.container2 {
+  display: flex;
+}
+.dox-1 {
+  flex-grow: 1;
+}
+.container3 {
+  display: flex;
+}
+.fox-1 {
+  flex-grow: 2;
+}
+.fox-2 {
+  flex-grow: 1;
+}
+.container4 {
+  display: flex;
+}
+.pox-1 {
+  flex-grow: 2;
+}
+.pox-2 {
+  flex-grow: 1;
+}
+.container5 {
+  display: flex;
+}
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+}
