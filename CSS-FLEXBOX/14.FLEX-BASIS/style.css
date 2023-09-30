@@ -1,0 +1,55 @@
+/*
+flex:basis ; =====> it works as the max-width; 
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f3f3f3;
+}
+.container {
+  border: 5px solid red;
+}
+.box,
+.tox {
+  text-align: center;
+  padding: 30px;
+  font-size: 35px;
+}
+.box-1,
+.tox-1 {
+  background-color: aqua;
+}
+.box-2,
+.tox-2 {
+  background-color: blueviolet;
+}
+.box-3,
+.tox-3 {
+  background-color: papayawhip;
+}
+.box-4,
+.tox-4 {
+  background-color: orange;
+}
+.box-5,
+.tox-5 {
+  background-color: greenyellow;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  flex-basis: 550px; /*WE ALSO ALSO TAKE IT AS PERCENTAGE*/
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
