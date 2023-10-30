@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-GRID</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    .conclusion h1 {
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+    h4 {
+      color: red;
+    }
+    .red {
+      color: red;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="cell">cell 1</div>
+      <div class="cell">cell 2</div>
+    </div>
+    <br />
+    <div class="conclusion">
+      <h1>conclusion</h1>
+      <h3>Here, We use one property in the container:<br /></h3>
+      <h2>.container { display: grid; grid-template-columns: 200px 300px; }</h2>
+      <br />
+      <h4>
+        grid-template-columns: one for the width of first child and second for
+        the width of another child
+      </h4>
+      <br />
+      <h1>Note</h1>
+      <h2 class="red">
+        If we add two value in grid-template-columns then it means we are trying
+        to make two column layout according to css and it will try to add value
+        according to that by looking to the no. of our cell
+      </h2>
+    </div>
+  </body>
+</html>
