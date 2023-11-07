@@ -1,0 +1,34 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  display: grid;
+  /* minmax
+  ===> it will not let the send column go below 400px */
+  grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+.cell {
+  border: 5px solid red;
+}
+.cell-1 {
+  background-color: #581f18;
+}
+.cell-2 {
+  background-color: #f0a202;
+}
+.cell-3 {
+  background-color: #d95d39;
+}
+.cell-4 {
+  background-color: #202c59;
+}
+.cell-5 {
+  background-color: #51cb20;
+}
+.cell-6 {
+  background-color: grey;
+}
