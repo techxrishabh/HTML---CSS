@@ -14,7 +14,7 @@ div {
 .div1 {
   background-color: red;
   border: 5px solid rgb(78, 5, 5);
-  transform: rotate(deg);
+  /* transform: rotate(deg); */
   transition: all 2s ease-in-out;
 }
 .div2 {
